@@ -610,6 +610,32 @@
             width: 100%;
             max-width: 460px;
         }
+
+        /* Untuk HP ukuran 402x874 */
+@media (max-width: 450px) {
+    .hero-stats {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 0.5rem;
+        width: 100%;
+    }
+    
+    .stat-item {
+        text-align: center;
+        flex: 1;
+    }
+    
+    .stat-number {
+        font-size: 1.1rem;
+        white-space: nowrap;
+    }
+    
+    .stat-label {
+        font-size: 0.7rem;
+        white-space: nowrap;
+    }
+}
     </style>
 </head>
 <body>
